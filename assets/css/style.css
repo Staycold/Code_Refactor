@@ -1,4 +1,4 @@
-* {
+* { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,11 +8,14 @@ body {
     background-color: #d9dcd6;
 }
 
+/* added the position fixed and width*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    position:fixed;
+    width:100%;
 }
 
 .header h1 {
@@ -28,7 +31,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
     font-size: 20px;
 }
 
@@ -82,8 +85,8 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    background-color: #2589bd;    
 }
 
 .benefit-lead {
@@ -138,7 +141,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -147,7 +150,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -156,7 +159,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -197,4 +200,14 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+.contact-form {
+   font-weight: bold; 
+   margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    background-color: #0072bb;
+    color: #ffffff;
 }
