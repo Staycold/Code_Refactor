@@ -1,8 +1,8 @@
-Hi! so this is the picture of the first site live on github pages!
+# Hi! so this is the picture of the first site live on github pages!
 
 https://staycold.github.io/Code_Refactor/
 
-What the goal was/What I did.
+## What the goal was/What I did.
 WHEN I view the source code
 THEN I find semantic HTML elements
 WHEN I view the structure of the HTML elements
@@ -14,6 +14,6 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
-I hope you enjoy!
+## I hope you enjoy!
 
 <img src="img/screen.png" >
